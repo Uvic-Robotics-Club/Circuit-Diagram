@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T05:20:13.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.3" etag="BOI391rEmT6T85rHgKO6" type="github"><diagram id="DwsS2J723ZOZaTvMe3t2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-28T05:41:22.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="pnKj64Qw-pX_jdT6F6oN" version="20.0.3" type="github">
+  <diagram id="DwsS2J723ZOZaTvMe3t2" name="Page-1">
+    <mxGraphModel dx="1203" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kzE1yxQLpQRsYS8nyMCZ-1" target="kzE1yxQLpQRsYS8nyMCZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-1" value="7s, 6p Li-ion Battery" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.batteryStack;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-4" value="BMS: 100A" style="whiteSpace=wrap;html=1;verticalAlign=middle;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kzE1yxQLpQRsYS8nyMCZ-1" target="kzE1yxQLpQRsYS8nyMCZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="240" as="sourcePoint" />
+            <mxPoint x="430" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="120" />
+              <mxPoint x="70" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-10" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kzE1yxQLpQRsYS8nyMCZ-1" target="kzE1yxQLpQRsYS8nyMCZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="240" as="sourcePoint" />
+            <mxPoint x="430" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="120" />
+              <mxPoint x="290" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kzE1yxQLpQRsYS8nyMCZ-11" target="kzE1yxQLpQRsYS8nyMCZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-11" value="Electronic Fuse" style="whiteSpace=wrap;verticalAlign=middle;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kzE1yxQLpQRsYS8nyMCZ-15" target="kzE1yxQLpQRsYS8nyMCZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-15" value="Kill Switch" style="whiteSpace=wrap;html=1;verticalAlign=middle;shadow=0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-18" value="Power Distribution System (PDU)" style="whiteSpace=wrap;html=1;shadow=0;dashed=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-20" width="270" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-22" value="Buck Converter 1: 12V, 48A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-23" value="Buck Converter 2: 12V, 48A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-24" value="Buck Converter 3: 12V, 48A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
