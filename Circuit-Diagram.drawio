@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T05:41:22.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="pnKj64Qw-pX_jdT6F6oN" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T05:55:49.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rmcOEW9aA0FjQJ4PipZ2" version="20.0.3" type="github">
   <diagram id="DwsS2J723ZOZaTvMe3t2" name="Page-1">
-    <mxGraphModel dx="1203" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="1769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,10 +45,26 @@
         <mxCell id="kzE1yxQLpQRsYS8nyMCZ-15" value="Kill Switch" style="whiteSpace=wrap;html=1;verticalAlign=middle;shadow=0;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="90" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#0000FF;" edge="1" parent="1" source="kzE1yxQLpQRsYS8nyMCZ-18" target="kzE1yxQLpQRsYS8nyMCZ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-32" value="I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="kzE1yxQLpQRsYS8nyMCZ-30">
+          <mxGeometry x="-0.3289" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kzE1yxQLpQRsYS8nyMCZ-18" value="Power Distribution System (PDU)" style="whiteSpace=wrap;html=1;shadow=0;dashed=0;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="800" y="-20" width="270" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-22" value="Buck Converter 1: 12V, 48A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#FF0000;" edge="1" parent="1" source="kzE1yxQLpQRsYS8nyMCZ-22" target="kzE1yxQLpQRsYS8nyMCZ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-33" value="7v" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="kzE1yxQLpQRsYS8nyMCZ-31">
+          <mxGeometry x="0.361" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-22" value="Buck Converter 1: 7v" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kzE1yxQLpQRsYS8nyMCZ-23" value="Buck Converter 2: 12V, 48A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -56,6 +72,9 @@
         </mxCell>
         <mxCell id="kzE1yxQLpQRsYS8nyMCZ-24" value="Buck Converter 3: 12V, 48A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kzE1yxQLpQRsYS8nyMCZ-28" value="Raspberry Pi" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
